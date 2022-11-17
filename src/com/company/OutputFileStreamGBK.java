@@ -9,7 +9,7 @@ public class OutputFileStreamGBK {
         FileOutputStream out = null;
         DataOutputStream data = null;
         BufferedOutputStream buff = null;
-        String str = "E:\\算法(第四版)\\实验代码\\IO流输入输出\\ab.txt";
+        String str = "../../ab.txt";
         try {
 
             out = new FileOutputStream(str, true);
